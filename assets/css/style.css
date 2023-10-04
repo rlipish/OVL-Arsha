@@ -137,6 +137,39 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Headersub
+--------------------------------------------------------------*/
+#headersub {
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+  background: rgba(40, 58, 90, 0.9);
+}
+
+#headersub.header-scrolled,
+#headersub.header-inner-pages {
+  background: rgba(40, 58, 90, 0.9);
+}
+
+#headersub .logo {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#headersub .logo a {
+  color: #fff;
+}
+
+#headersub .logo img {
+  max-height: 40px;
+}
+
+/*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
@@ -644,6 +677,10 @@ section {
   background: #47b2e4;
   color: #fff;
   text-decoration: none;
+}
+
+#about .section-title h2 {
+  margin-top: 30px; /* Adjust the value to control the amount of space */
 }
 
 /*--------------------------------------------------------------
