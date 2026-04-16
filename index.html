@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>OVL Counselling</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>OVL Counselling | Online Therapist in Alberta & Ontario | Ory Li Pi Shan, MSW, RSW</title>
+  <meta content="Online therapy services based in Calgary, Alberta. Ory Li Pi Shan, MSW, RSW provides individual counselling for anxiety, depression, parenting, and life transitions." name="description">
+  <meta content="online therapy, therapist calgary, online counselling alberta, online counselling ontario, anxiety therapy, depression therapy, relationship therapy, MSW RSW" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -77,7 +77,8 @@
           <!-- <li><a class="nav-link scrollto active" href="https://ovlcounselling.blogspot.com/">Blog</a></li> -->
           <li><a class="nav-link scrollto" href="https://ovlcounselling.blogspot.com/" target="_blank">Blog</a></li>
 
-          <li><a class="getstarted scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="#contact">Book Free Consult</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -94,13 +95,13 @@
           <h1>Ory Li Pi Shan, MSW, RSW</h1>
           <h2>Committed to help you in your journey to clarify your values, find motivation to achieve your value-based goals, and take steps to improve your life.</h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="#why-us" class="btn-get-started scrollto">Get Started</a>
+            <a href="#contact" class="btn-get-started scrollto">Book Consult</a>
             <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
           <!-- <img src="assets/img/DSC_3151_00009.jpg" class="img-fluid animated" alt=""> -->
-          <img src="assets/img/DSC_3151_00009.jpg" class="img-fluid" alt="">
+          <img src="assets/img/DSC_3151_00009.jpg" class="img-fluid" alt="Ory Li Pi Shan, MSW, RSW - Therapist in Calgary, Alberta">
 
         </div>
       </div>
@@ -723,27 +724,41 @@
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" >
+                  <input type="text" name="name" class="form-control" id="name" required="required">
                 </div>
                 <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
+                  <label for="email">Your Email</label>
                   <input type="email" class="form-control" name="email" id="email" required="required">
                 </div>
               </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" value="Inquiry">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="phone">Phone Number (Optional)</label>
+                  <input type="tel" name="phone" class="form-control" id="phone" >
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="service">What are you seeking support for?</label>
+                  <select name="service" class="form-control" id="service" style="height: 44px; border-radius: 0; box-shadow: none; font-size: 14px; padding: 10px 15px;" required="required">
+                    <option value="" disabled selected>Select an option...</option>
+                    <option value="Anxiety">Anxiety</option>
+                    <option value="Depression">Depression</option>
+                    <option value="Life Transitions">Life Transitions</option>
+                    <option value="Parenting">Parenting Challenges</option>
+                    <option value="Relationships">Relationship Issues</option>
+                    <option value="Other">Other / General Consultation</option>
+                  </select>
+                </div>
               </div>
               <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10"></textarea>
+                <label for="message">Message (Optional Context)</label>
+                <textarea class="form-control" name="message" id="message" rows="5"></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="sent-message">Your request has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Book Free Consultation</button></div>
 
             
             </form>

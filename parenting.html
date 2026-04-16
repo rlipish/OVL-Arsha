@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>OVL Counselling</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Parenting Counselling & Support | OVL Counselling</title>
+  <meta content="Get support for your parenting journey. Online counselling for parenting challenges from a registered social worker in Alberta and Ontario." name="description">
+  <meta content="parenting counselling, online therapist, online parenting support, alberta, ontario" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -76,7 +76,8 @@
           <!-- <li><a class="nav-link scrollto" href="index.html#faq">FAQ</a></li> -->
           <!-- <li><a class="nav-link scrollto active" href="https://ovlcounselling.blogspot.com/">Blog</a></li> -->
           <li><a class="nav-link scrollto" href="https://ovlcounselling.blogspot.com/" target="_blank">Blog</a></li>
-          <li><a class="getstarted scrollto" href="#contact">Contact</a></li> 
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="#contact">Book Free Consult</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -205,27 +206,41 @@
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" >
+                  <input type="text" name="name" class="form-control" id="name" required="required">
                 </div>
                 <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
+                  <label for="email">Your Email</label>
                   <input type="email" class="form-control" name="email" id="email" required="required">
                 </div>
               </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" value="Inquiry">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="phone">Phone Number (Optional)</label>
+                  <input type="tel" name="phone" class="form-control" id="phone" >
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="service">What are you seeking support for?</label>
+                  <select name="service" class="form-control" id="service" style="height: 44px; border-radius: 0; box-shadow: none; font-size: 14px; padding: 10px 15px;" required="required">
+                    <option value="" disabled selected>Select an option...</option>
+                    <option value="Anxiety">Anxiety</option>
+                    <option value="Depression">Depression</option>
+                    <option value="Life Transitions">Life Transitions</option>
+                    <option value="Parenting">Parenting Challenges</option>
+                    <option value="Relationships">Relationship Issues</option>
+                    <option value="Other">Other / General Consultation</option>
+                  </select>
+                </div>
               </div>
               <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10"></textarea>
+                <label for="message">Message (Optional Context)</label>
+                <textarea class="form-control" name="message" id="message" rows="5"></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="sent-message">Your request has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Book Free Consultation</button></div>
 
               <!-- <div class="form-group row">
                 <label for="text1" class="col-4 col-form-label">Name</label> 
